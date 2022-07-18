@@ -1,6 +1,6 @@
 
 
-class employee:
+class employee_demo:
 
     def __init__(self, first, last, pay):
         self.first = first
@@ -17,7 +17,7 @@ class employee:
 
 
     def __repr__(self):
-        return "Employee('{}','{}','{})".format(self.first,self.last,self.pay)
+        return "employee_demo('{}','{}','{})".format(self.first,self.last,self.pay)
 
 
 
